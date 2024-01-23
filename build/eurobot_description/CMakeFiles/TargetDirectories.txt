@@ -1,0 +1,10 @@
+/home/rosubuntu/eurobot_ws/build/eurobot_description/CMakeFiles/uninstall.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_description/CMakeFiles/eurobot_description_uninstall.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_description/CMakeFiles/eurobot_description__xacro_auto_generate.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_description/CMakeFiles/test.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_description/CMakeFiles/edit_cache.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_description/CMakeFiles/rebuild_cache.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_description/CMakeFiles/list_install_components.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_description/CMakeFiles/install.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_description/CMakeFiles/install/local.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_description/CMakeFiles/install/strip.dir

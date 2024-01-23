@@ -1,0 +1,6 @@
+Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosubuntu/eurobot_ws/src/eurobot_control -DCMAKE_INSTALL_PREFIX=/home/rosubuntu/eurobot_ws/install/eurobot_control
+Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosubuntu/eurobot_ws/src/eurobot_control -DCMAKE_INSTALL_PREFIX=/home/rosubuntu/eurobot_ws/install/eurobot_control
+Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_control -- -j8 -l8
+Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_control -- -j8 -l8
+Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_control
+Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_control

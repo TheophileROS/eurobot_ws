@@ -1,0 +1,2 @@
+source;share/eurobot_control/environment/ament_prefix_path.sh
+source;share/eurobot_control/environment/path.sh

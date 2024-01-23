@@ -1,0 +1,27 @@
+[1.775s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_launch': CMAKE_PREFIX_PATH=/home/rosubuntu/eurobot_ws/install/eurobot_description:/home/rosubuntu/eurobot_ws/install/mon_pkg_robot:/home/rosubuntu/eurobot_ws/install/eurobot_teleop:/home/rosubuntu/eurobot_ws/install/eurobot_launch:/home/rosubuntu/eurobot_ws/install/eurobot_hardware:/home/rosubuntu/eurobot_ws/install/eurobot_controller:/home/rosubuntu/eurobot_ws/install/eurobot_control:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_launch -- -j8 -l8
+[1.895s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_launch' returned '0': CMAKE_PREFIX_PATH=/home/rosubuntu/eurobot_ws/install/eurobot_description:/home/rosubuntu/eurobot_ws/install/mon_pkg_robot:/home/rosubuntu/eurobot_ws/install/eurobot_teleop:/home/rosubuntu/eurobot_ws/install/eurobot_launch:/home/rosubuntu/eurobot_ws/install/eurobot_hardware:/home/rosubuntu/eurobot_ws/install/eurobot_controller:/home/rosubuntu/eurobot_ws/install/eurobot_control:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_launch -- -j8 -l8
+[1.971s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_launch': CMAKE_PREFIX_PATH=/home/rosubuntu/eurobot_ws/install/eurobot_description:/home/rosubuntu/eurobot_ws/install/mon_pkg_robot:/home/rosubuntu/eurobot_ws/install/eurobot_teleop:/home/rosubuntu/eurobot_ws/install/eurobot_launch:/home/rosubuntu/eurobot_ws/install/eurobot_hardware:/home/rosubuntu/eurobot_ws/install/eurobot_controller:/home/rosubuntu/eurobot_ws/install/eurobot_control:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_launch
+[2.011s] -- Install configuration: ""
+[2.013s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch
+[2.013s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch/eurobot_teleop.py
+[2.014s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch/rviz2.py
+[2.014s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch/sim.launch.py
+[2.015s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch/eurobot_state_publisher.py
+[2.015s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch/launch_sim.launch.py
+[2.015s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch/eurobot_hardware.py
+[2.017s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/ament_index/resource_index/package_run_dependencies/eurobot_launch
+[2.017s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/ament_index/resource_index/parent_prefix_path/eurobot_launch
+[2.018s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/environment/ament_prefix_path.sh
+[2.018s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/environment/ament_prefix_path.dsv
+[2.018s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/environment/path.sh
+[2.019s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/environment/path.dsv
+[2.019s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/local_setup.bash
+[2.019s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/local_setup.sh
+[2.019s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/local_setup.zsh
+[2.021s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/local_setup.dsv
+[2.040s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.dsv
+[2.043s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/ament_index/resource_index/packages/eurobot_launch
+[2.043s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/cmake/eurobot_launchConfig.cmake
+[2.043s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/cmake/eurobot_launchConfig-version.cmake
+[2.055s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.xml
+[2.056s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_launch' returned '0': CMAKE_PREFIX_PATH=/home/rosubuntu/eurobot_ws/install/eurobot_description:/home/rosubuntu/eurobot_ws/install/mon_pkg_robot:/home/rosubuntu/eurobot_ws/install/eurobot_teleop:/home/rosubuntu/eurobot_ws/install/eurobot_launch:/home/rosubuntu/eurobot_ws/install/eurobot_hardware:/home/rosubuntu/eurobot_ws/install/eurobot_controller:/home/rosubuntu/eurobot_ws/install/eurobot_control:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_launch

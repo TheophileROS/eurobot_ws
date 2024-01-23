@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target eurobot_controller[0m
+[100%] Built target eurobot_controller
+-- Install configuration: ""
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/eurobot_controller.xml
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/lib/libeurobot_controller.so
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/include/include
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/include/include/eurobot_controller
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/include/include/eurobot_controller/eurobot_controller_compiler.h
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/include/include/eurobot_controller/eurobot_drive_controller.hpp
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/include/include/eurobot_controller/eurobot_wheel.hpp
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/environment/library_path.sh
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/environment/library_path.dsv
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/ament_index/resource_index/package_run_dependencies/eurobot_controller
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/ament_index/resource_index/parent_prefix_path/eurobot_controller
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/environment/path.sh
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/environment/path.dsv
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/local_setup.bash
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/local_setup.sh
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/local_setup.zsh
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/local_setup.dsv
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.dsv
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/ament_index/resource_index/packages/eurobot_controller
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/eurobot_controller
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/cmake/eurobot_controllerConfig.cmake
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/cmake/eurobot_controllerConfig-version.cmake
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.xml

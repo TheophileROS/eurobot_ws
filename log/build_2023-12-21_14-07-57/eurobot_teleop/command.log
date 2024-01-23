@@ -1,0 +1,6 @@
+Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosubuntu/eurobot_ws/src/eurobot_teleop -DCMAKE_INSTALL_PREFIX=/home/rosubuntu/eurobot_ws/install/eurobot_teleop
+Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosubuntu/eurobot_ws/src/eurobot_teleop -DCMAKE_INSTALL_PREFIX=/home/rosubuntu/eurobot_ws/install/eurobot_teleop
+Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_teleop -- -j8 -l8
+Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_teleop -- -j8 -l8
+Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_teleop
+Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_teleop

@@ -1,0 +1,117 @@
+[0.146s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosubuntu/eurobot_ws/src/eurobot_hardware -DCMAKE_INSTALL_PREFIX=/home/rosubuntu/eurobot_ws/install/eurobot_hardware
+[0.209s] -- The C compiler identification is GNU 11.4.0
+[0.282s] -- The CXX compiler identification is GNU 11.4.0
+[0.289s] -- Detecting C compiler ABI info
+[0.364s] -- Detecting C compiler ABI info - done
+[0.373s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.373s] -- Detecting C compile features
+[0.373s] -- Detecting C compile features - done
+[0.377s] -- Detecting CXX compiler ABI info
+[0.480s] -- Detecting CXX compiler ABI info - done
+[0.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.489s] -- Detecting CXX compile features
+[0.490s] -- Detecting CXX compile features - done
+[0.492s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.719s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.840s] -- Found hardware_interface: 2.35.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.897s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.904s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.916s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.969s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.901s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.905s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.967s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.032s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.037s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.060s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.077s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.095s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.112s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.127s] -- Looking for pthread.h
+[2.237s] -- Looking for pthread.h - found
+[2.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.352s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.354s] -- Found Threads: TRUE  
+[2.836s] -- Configuring done
+[2.872s] -- Generating done
+[2.872s] -- Build files have been written to: /home/rosubuntu/eurobot_ws/build/eurobot_hardware
+[2.882s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rosubuntu/eurobot_ws/src/eurobot_hardware -DCMAKE_INSTALL_PREFIX=/home/rosubuntu/eurobot_ws/install/eurobot_hardware
+[2.884s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_hardware -- -j8 -l8
+[2.948s] [ 66%] [32mBuilding CXX object CMakeFiles/eurobot_hardware.dir/src/eurobot_serial_port.cpp.o[0m
+[2.949s] [ 66%] [32mBuilding CXX object CMakeFiles/eurobot_hardware.dir/src/eurobot_hardware.cpp.o[0m
+[6.856s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn debict::eurobot::hardware::EurobotHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[6.856s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_hardware.cpp:111:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.857s]   111 | urobotHardware::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[6.857s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.857s] 
+[6.857s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn debict::eurobot::hardware::EurobotHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[6.857s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_hardware.cpp:138:99:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.858s]   138 | obotHardware::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[6.858s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.858s] 
+[6.861s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type debict::eurobot::hardware::EurobotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[6.861s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_hardware.cpp:151:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.861s]   151 | ace::return_type EurobotHardware::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[6.861s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.861s] 
+[6.861s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_hardware.cpp:151:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.861s]   151 | dware::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[6.862s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.862s] 
+[6.862s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type debict::eurobot::hardware::EurobotHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[6.862s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_hardware.cpp:177:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.862s]   177 | ce::return_type EurobotHardware::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[6.862s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.862s] 
+[6.863s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_hardware.cpp:177:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.863s]   177 | ware::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[6.863s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.863s] 
+[7.338s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_serial_port.cpp:[m[K In member function ‘[01m[Kdebict::eurobot::hardware::return_type debict::eurobot::hardware::EurobotSerialPort::read_frames(std::vector<debict::eurobot::hardware::SerialHdlcFrame>&)[m[K’:
+[7.338s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_serial_port.cpp:93:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kssize_t read(int, void*, size_t)[m[K’ writing 256 bytes into a region of size 200 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+[7.338s]    93 |     const ssize_t num_bytes = [01;35m[K::read(serial_port_, rx_buffer_, 256)[m[K;
+[7.338s]       |                               [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.338s] In file included from [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_serial_port.cpp:10[m[K:
+[7.338s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/include/eurobot_hardware/eurobot_serial_port.hpp:48:25:[m[K [01;36m[Knote: [m[Kdestination object ‘[01m[Kdebict::eurobot::hardware::EurobotSerialPort::rx_buffer_[m[K’ of size 200
+[7.338s]    48 |                 uint8_t [01;36m[Krx_buffer_[m[K[EUROBOT_SERIAL_BUFFER_MAX_SIZE];
+[7.338s]       |                         [01;36m[K^~~~~~~~~~[m[K
+[7.339s] In file included from [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_hardware/src/eurobot_serial_port.cpp:7[m[K:
+[7.339s] [01m[K/usr/include/unistd.h:371:16:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kssize_t read(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (write_only, 2, 3)[m[K’
+[7.339s]   371 | extern ssize_t [01;36m[Kread[m[K (int __fd, void *__buf, size_t __nbytes) __wur
+[7.339s]       |                [01;36m[K^~~~[m[K
+[8.641s] [100%] [32m[1mLinking CXX shared library libeurobot_hardware.so[0m
+[8.874s] [100%] Built target eurobot_hardware
+[8.886s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_hardware -- -j8 -l8
+[8.909s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_hardware
+[8.915s] -- Install configuration: ""
+[8.916s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/eurobot_hardware.xml
+[8.916s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/lib/libeurobot_hardware.so
+[8.917s] -- Set runtime path of "/home/rosubuntu/eurobot_ws/install/eurobot_hardware/lib/libeurobot_hardware.so" to ""
+[8.917s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/include/include
+[8.917s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/include/include/eurobot_hardware
+[8.917s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/include/include/eurobot_hardware/eurobot_serial_port.hpp
+[8.917s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/include/include/eurobot_hardware/eurobot_hardware_compiler.h
+[8.918s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/include/include/eurobot_hardware/eurobot_hardware.hpp
+[8.918s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/library_path.sh
+[8.918s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/library_path.dsv
+[8.918s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/ament_index/resource_index/package_run_dependencies/eurobot_hardware
+[8.918s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/ament_index/resource_index/parent_prefix_path/eurobot_hardware
+[8.918s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/ament_prefix_path.sh
+[8.918s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/ament_prefix_path.dsv
+[8.919s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/path.sh
+[8.919s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/path.dsv
+[8.919s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/local_setup.bash
+[8.919s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/local_setup.sh
+[8.919s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/local_setup.zsh
+[8.919s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/local_setup.dsv
+[8.919s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.dsv
+[8.919s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/ament_index/resource_index/packages/eurobot_hardware
+[8.920s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/eurobot_hardware
+[8.920s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.920s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[8.920s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.920s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/cmake/eurobot_hardwareConfig.cmake
+[8.920s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/cmake/eurobot_hardwareConfig-version.cmake
+[8.920s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.xml
+[8.922s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_hardware

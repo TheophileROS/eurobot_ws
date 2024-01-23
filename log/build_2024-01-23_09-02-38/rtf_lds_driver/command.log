@@ -1,0 +1,4 @@
+Invoking command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rosubuntu/eurobot_ws/src/rtf_lds_lidar -DCMAKE_INSTALL_PREFIX=/home/rosubuntu/eurobot_ws/install/rtf_lds_driver
+Invoked command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rosubuntu/eurobot_ws/src/rtf_lds_lidar -DCMAKE_INSTALL_PREFIX=/home/rosubuntu/eurobot_ws/install/rtf_lds_driver
+Invoking command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/rtf_lds_driver -- -j8 -l8
+Invoked command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/rtf_lds_driver -- -j8 -l8

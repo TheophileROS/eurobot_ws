@@ -1,0 +1,10 @@
+/home/rosubuntu/eurobot_ws/build/eurobot_control/CMakeFiles/uninstall.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_control/CMakeFiles/eurobot_control_uninstall.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_control/CMakeFiles/eurobot_control_node.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_control/CMakeFiles/test.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_control/CMakeFiles/edit_cache.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_control/CMakeFiles/rebuild_cache.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_control/CMakeFiles/list_install_components.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_control/CMakeFiles/install.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_control/CMakeFiles/install/local.dir
+/home/rosubuntu/eurobot_ws/build/eurobot_control/CMakeFiles/install/strip.dir

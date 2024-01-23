@@ -1,0 +1,16 @@
+/home/rosubuntu/eurobot_ws/install/eurobot_control/lib/eurobot_control/eurobot_control_node
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/ament_index/resource_index/package_run_dependencies/eurobot_control
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/ament_index/resource_index/parent_prefix_path/eurobot_control
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/environment/ament_prefix_path.sh
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/environment/ament_prefix_path.dsv
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/environment/path.sh
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/environment/path.dsv
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/local_setup.bash
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/local_setup.sh
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/local_setup.zsh
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/local_setup.dsv
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.dsv
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/ament_index/resource_index/packages/eurobot_control
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/cmake/eurobot_controlConfig.cmake
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/cmake/eurobot_controlConfig-version.cmake
+/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.xml

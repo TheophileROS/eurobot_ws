@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch/eurobot_teleop.py
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch/rviz2.py
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch/eurobot_state_publisher.py
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/launch/eurobot_hardware.py
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/ament_index/resource_index/package_run_dependencies/eurobot_launch
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/ament_index/resource_index/parent_prefix_path/eurobot_launch
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/environment/path.sh
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/environment/path.dsv
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/local_setup.bash
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/local_setup.sh
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/local_setup.zsh
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/local_setup.dsv
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.dsv
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/ament_index/resource_index/packages/eurobot_launch
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/cmake/eurobot_launchConfig.cmake
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/cmake/eurobot_launchConfig-version.cmake
+-- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.xml

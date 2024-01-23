@@ -1,0 +1,5 @@
+[0.316s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_controller -- -j8 -l8
+[0.402s] [ 33%] [32mBuilding CXX object CMakeFiles/eurobot_controller.dir/src/eurobot_wheel.cpp.o[0m
+[0.403s] [ 66%] [32mBuilding CXX object CMakeFiles/eurobot_controller.dir/src/eurobot_drive_controller.cpp.o[0m
+[10.789s] [100%] [32m[1mLinking CXX shared library libeurobot_controller.so[0m
+[11.297s] [100%] Built target eurobot_controller

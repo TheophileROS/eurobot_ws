@@ -1,0 +1,118 @@
+[0.236s] Invoking command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rosubuntu/eurobot_ws/src/rtf_lds_lidar -DCMAKE_INSTALL_PREFIX=/home/rosubuntu/eurobot_ws/install/rtf_lds_driver
+[0.581s] -- The C compiler identification is GNU 11.4.0
+[0.807s] -- The CXX compiler identification is GNU 11.4.0
+[0.848s] -- Detecting C compiler ABI info
+[1.098s] -- Detecting C compiler ABI info - done
+[1.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.132s] -- Detecting C compile features
+[1.136s] -- Detecting C compile features - done
+[1.144s] -- Detecting CXX compiler ABI info
+[1.606s] -- Detecting CXX compiler ABI info - done
+[1.606s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.606s] -- Detecting CXX compile features
+[1.606s] -- Detecting CXX compile features - done
+[1.607s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.595s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.271s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[3.622s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.647s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.682s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.735s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.127s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.142s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.481s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.576s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.729s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.780s] -- Looking for pthread.h
+[5.015s] -- Looking for pthread.h - found
+[5.024s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.344s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.350s] -- Found Threads: TRUE  
+[6.093s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.581s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[6.862s] -- Configuring done
+[6.893s] -- Generating done
+[6.898s] -- Build files have been written to: /home/rosubuntu/eurobot_ws/build/rtf_lds_driver
+[6.926s] Invoked command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rosubuntu/eurobot_ws/src/rtf_lds_lidar -DCMAKE_INSTALL_PREFIX=/home/rosubuntu/eurobot_ws/install/rtf_lds_driver
+[6.931s] Invoking command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/rtf_lds_driver -- -j8 -l8
+[7.082s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[17.573s] [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[17.573s] [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:147:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [5])[m[K’
+[17.574s]   147 |   [01;31m[Knode->declare_parameter("port")[m[K;
+[17.574s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[17.574s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[17.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[17.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.575s]                  from [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:35[m[K:
+[17.575s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[17.575s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[17.575s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.575s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.575s] [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:147:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[17.577s]   147 |   [01;36m[Knode->declare_parameter("port")[m[K;
+[17.578s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[17.580s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[17.581s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[17.582s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.582s]                  from [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:35[m[K:
+[17.582s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[17.583s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[17.583s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.584s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.584s] [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:147:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[17.585s]   147 |   [01;36m[Knode->declare_parameter("port")[m[K;
+[17.585s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[17.585s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[17.585s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[17.586s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.586s]                  from [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:35[m[K:
+[17.586s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[17.586s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[17.587s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.587s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[17.587s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[17.587s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[17.588s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.588s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[17.588s] [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:148:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameter(const char [9])[m[K’
+[17.588s]   148 |   [01;31m[Knode->declare_parameter("frame_id")[m[K;
+[17.588s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.588s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[17.588s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[17.589s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.589s]                  from [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:35[m[K:
+[17.589s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[17.589s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[17.589s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.589s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.589s] [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:148:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[17.589s]   148 |   [01;36m[Knode->declare_parameter("frame_id")[m[K;
+[17.589s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.590s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[17.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[17.590s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.590s]                  from [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:35[m[K:
+[17.590s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[17.590s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[17.590s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.590s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.590s] [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:148:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[17.590s]   148 |   [01;36m[Knode->declare_parameter("frame_id")[m[K;
+[17.591s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[17.591s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[17.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[17.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[17.597s]                  from [01m[K/home/rosubuntu/eurobot_ws/src/rtf_lds_lidar/src/hlds_laser_publisher.cpp:35[m[K:
+[17.597s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[17.598s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[17.598s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.599s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[17.600s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[17.600s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[17.601s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[17.601s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[21.072s] gmake[2]: *** [CMakeFiles/hlds_laser_publisher.dir/build.make:76: CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o] Error 1
+[21.072s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hlds_laser_publisher.dir/all] Error 2
+[21.073s] gmake: *** [Makefile:146: all] Error 2
+[21.077s] Invoked command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/rtf_lds_driver -- -j8 -l8

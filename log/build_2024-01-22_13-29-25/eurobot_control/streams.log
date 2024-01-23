@@ -1,0 +1,26 @@
+[0.407s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_control -- -j8 -l8
+[0.449s] [35m[1mConsolidate compiler generated dependencies of target eurobot_control_node[0m
+[0.485s] [ 50%] [32mBuilding CXX object CMakeFiles/eurobot_control_node.dir/src/eurobot_control_node.cpp.o[0m
+[4.803s] [100%] [32m[1mLinking CXX executable eurobot_control_node[0m
+[4.990s] [100%] Built target eurobot_control_node
+[5.002s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_control -- -j8 -l8
+[5.026s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_control
+[5.035s] -- Install configuration: ""
+[5.036s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_control/lib/eurobot_control/eurobot_control_node
+[5.036s] -- Set runtime path of "/home/rosubuntu/eurobot_ws/install/eurobot_control/lib/eurobot_control/eurobot_control_node" to ""
+[5.036s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/ament_index/resource_index/package_run_dependencies/eurobot_control
+[5.037s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/ament_index/resource_index/parent_prefix_path/eurobot_control
+[5.037s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/environment/ament_prefix_path.sh
+[5.037s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/environment/ament_prefix_path.dsv
+[5.037s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/environment/path.sh
+[5.037s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/environment/path.dsv
+[5.037s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/local_setup.bash
+[5.037s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/local_setup.sh
+[5.037s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/local_setup.zsh
+[5.037s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/local_setup.dsv
+[5.037s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.dsv
+[5.038s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/ament_index/resource_index/packages/eurobot_control
+[5.038s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/cmake/eurobot_controlConfig.cmake
+[5.038s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/cmake/eurobot_controlConfig-version.cmake
+[5.038s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.xml
+[5.040s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_control

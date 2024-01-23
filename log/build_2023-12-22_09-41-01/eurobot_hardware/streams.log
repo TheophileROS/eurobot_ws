@@ -1,0 +1,34 @@
+[0.225s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_hardware -- -j8 -l8
+[0.279s] [100%] Built target eurobot_hardware
+[0.290s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_hardware -- -j8 -l8
+[0.323s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_hardware
+[0.333s] -- Install configuration: ""
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/eurobot_hardware.xml
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/lib/libeurobot_hardware.so
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/include/include
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/include/include/eurobot_hardware
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/include/include/eurobot_hardware/eurobot_serial_port.hpp
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/include/include/eurobot_hardware/eurobot_hardware_compiler.h
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/include/include/eurobot_hardware/eurobot_hardware.hpp
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/library_path.sh
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/library_path.dsv
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/ament_index/resource_index/package_run_dependencies/eurobot_hardware
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/ament_index/resource_index/parent_prefix_path/eurobot_hardware
+[0.333s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/ament_prefix_path.sh
+[0.334s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/ament_prefix_path.dsv
+[0.334s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/path.sh
+[0.334s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/environment/path.dsv
+[0.334s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/local_setup.bash
+[0.334s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/local_setup.sh
+[0.334s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/local_setup.zsh
+[0.334s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/local_setup.dsv
+[0.334s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.dsv
+[0.334s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/ament_index/resource_index/packages/eurobot_hardware
+[0.334s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/eurobot_hardware
+[0.334s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.335s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[0.335s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.335s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/cmake/eurobot_hardwareConfig.cmake
+[0.335s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/cmake/eurobot_hardwareConfig-version.cmake
+[0.336s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.xml
+[0.542s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_hardware

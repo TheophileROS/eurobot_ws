@@ -1,0 +1,9 @@
+/home/rosubuntu/eurobot_ws/build/mon_pkg_robot/CMakeFiles/uninstall.dir
+/home/rosubuntu/eurobot_ws/build/mon_pkg_robot/CMakeFiles/mon_pkg_robot_uninstall.dir
+/home/rosubuntu/eurobot_ws/build/mon_pkg_robot/CMakeFiles/test.dir
+/home/rosubuntu/eurobot_ws/build/mon_pkg_robot/CMakeFiles/edit_cache.dir
+/home/rosubuntu/eurobot_ws/build/mon_pkg_robot/CMakeFiles/rebuild_cache.dir
+/home/rosubuntu/eurobot_ws/build/mon_pkg_robot/CMakeFiles/list_install_components.dir
+/home/rosubuntu/eurobot_ws/build/mon_pkg_robot/CMakeFiles/install.dir
+/home/rosubuntu/eurobot_ws/build/mon_pkg_robot/CMakeFiles/install/local.dir
+/home/rosubuntu/eurobot_ws/build/mon_pkg_robot/CMakeFiles/install/strip.dir

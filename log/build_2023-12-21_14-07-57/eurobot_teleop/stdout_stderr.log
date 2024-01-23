@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rosubuntu/eurobot_ws/build/eurobot_teleop
+[ 75%] [32mBuilding CXX object CMakeFiles/eurobot_teleop.dir/src/eurobot_joystick.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/eurobot_teleop.dir/src/eurobot_teleop.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/eurobot_teleop.dir/src/node_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable eurobot_teleop[0m
+[100%] Built target eurobot_teleop
+-- Install configuration: ""
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/config
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/config/teleop_config.yaml
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/lib/eurobot_teleop/eurobot_teleop
+-- Set runtime path of "/home/rosubuntu/eurobot_ws/install/eurobot_teleop/lib/eurobot_teleop/eurobot_teleop" to ""
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/ament_index/resource_index/package_run_dependencies/eurobot_teleop
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/ament_index/resource_index/parent_prefix_path/eurobot_teleop
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/ament_prefix_path.sh
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/ament_prefix_path.dsv
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/path.sh
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/path.dsv
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.bash
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.sh
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.zsh
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.dsv
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.dsv
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/ament_index/resource_index/packages/eurobot_teleop
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/cmake/eurobot_teleopConfig.cmake
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/cmake/eurobot_teleopConfig-version.cmake
+-- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.xml

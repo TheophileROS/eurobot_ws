@@ -1,0 +1,4 @@
+source;share/eurobot_teleop/local_setup.bash
+source;share/eurobot_teleop/local_setup.dsv
+source;share/eurobot_teleop/local_setup.sh
+source;share/eurobot_teleop/local_setup.zsh

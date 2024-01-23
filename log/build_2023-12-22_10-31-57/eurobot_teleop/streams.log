@@ -1,0 +1,24 @@
+[0.163s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_teleop -- -j8 -l8
+[0.228s] [100%] Built target eurobot_teleop
+[0.255s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_teleop -- -j8 -l8
+[0.391s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_teleop
+[0.406s] -- Install configuration: ""
+[0.406s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/config
+[0.406s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/config/teleop_config.yaml
+[0.406s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/lib/eurobot_teleop/eurobot_teleop
+[0.406s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/ament_index/resource_index/package_run_dependencies/eurobot_teleop
+[0.406s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/ament_index/resource_index/parent_prefix_path/eurobot_teleop
+[0.406s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/ament_prefix_path.sh
+[0.407s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/ament_prefix_path.dsv
+[0.407s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/path.sh
+[0.407s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/path.dsv
+[0.407s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.bash
+[0.407s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.sh
+[0.407s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.zsh
+[0.407s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.dsv
+[0.408s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.dsv
+[0.408s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/ament_index/resource_index/packages/eurobot_teleop
+[0.408s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/cmake/eurobot_teleopConfig.cmake
+[0.408s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/cmake/eurobot_teleopConfig-version.cmake
+[0.408s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.xml
+[0.784s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_teleop

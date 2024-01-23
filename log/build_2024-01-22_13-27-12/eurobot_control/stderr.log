@@ -1,0 +1,20 @@
+[01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:60:33:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   60 |     start_controllers.push_back([01;35m[K"[m[Kjoi
+      |                                 [01;35m[K^[m[K
+[01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:60:33:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   60 |     start_controllers.push_back([01;31m[K"joi[m[K
+      |                                 [01;31m[K^~~~[m[K
+[01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:61:24:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   61 |     nt_state_controller[01;35m[K"[m[K);
+      |                        [01;35m[K^[m[K
+[01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:61:24:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   61 |     nt_state_controller[01;31m[K");[m[K
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knt_state_controller[m[K’ was not declared in this scope; did you mean ‘[01m[Kstart_controllers[m[K’?
+   61 |     [01;31m[Knt_state_controller[m[K");
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kstart_controllers[m[K
+gmake[2]: *** [CMakeFiles/eurobot_control_node.dir/build.make:76: CMakeFiles/eurobot_control_node.dir/src/eurobot_control_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/eurobot_control_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

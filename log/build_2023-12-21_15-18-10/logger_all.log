@@ -1,0 +1,549 @@
+[0.973s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.973s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f67c94383a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f67c9439ab0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f67c9439ab0>>)
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.014s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.014s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rosubuntu/eurobot_ws'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_control) by extensions ['ignore', 'ignore_ament_install']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_control) by extension 'ignore'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_control) by extension 'ignore_ament_install'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_control) by extensions ['colcon_pkg']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_control) by extension 'colcon_pkg'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_control) by extensions ['colcon_meta']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_control) by extension 'colcon_meta'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_control) by extensions ['ros']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_control) by extension 'ros'
+[1.027s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eurobot_control' with type 'ros.ament_cmake' and name 'eurobot_control'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_controller) by extension 'ignore'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_controller) by extension 'ignore_ament_install'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_controller) by extensions ['colcon_pkg']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_controller) by extension 'colcon_pkg'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_controller) by extensions ['colcon_meta']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_controller) by extension 'colcon_meta'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_controller) by extensions ['ros']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_controller) by extension 'ros'
+[1.028s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eurobot_controller' with type 'ros.ament_cmake' and name 'eurobot_controller'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_description) by extension 'ignore'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_description) by extension 'ignore_ament_install'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_description) by extensions ['colcon_pkg']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_description) by extension 'colcon_pkg'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_description) by extensions ['colcon_meta']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_description) by extension 'colcon_meta'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_description) by extensions ['ros']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_description) by extension 'ros'
+[1.028s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eurobot_description' with type 'ros.ament_cmake' and name 'eurobot_description'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_hardware) by extensions ['ignore', 'ignore_ament_install']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_hardware) by extension 'ignore'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_hardware) by extension 'ignore_ament_install'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_hardware) by extensions ['colcon_pkg']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_hardware) by extension 'colcon_pkg'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_hardware) by extensions ['colcon_meta']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_hardware) by extension 'colcon_meta'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_hardware) by extensions ['ros']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_hardware) by extension 'ros'
+[1.029s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eurobot_hardware' with type 'ros.ament_cmake' and name 'eurobot_hardware'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_launch) by extensions ['ignore', 'ignore_ament_install']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_launch) by extension 'ignore'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_launch) by extension 'ignore_ament_install'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_launch) by extensions ['colcon_pkg']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_launch) by extension 'colcon_pkg'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_launch) by extensions ['colcon_meta']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_launch) by extension 'colcon_meta'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_launch) by extensions ['ros']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_launch) by extension 'ros'
+[1.030s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eurobot_launch' with type 'ros.ament_cmake' and name 'eurobot_launch'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_teleop) by extension 'ignore'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_teleop) by extension 'ignore_ament_install'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_teleop) by extensions ['colcon_pkg']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_teleop) by extension 'colcon_pkg'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_teleop) by extensions ['colcon_meta']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_teleop) by extension 'colcon_meta'
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_teleop) by extensions ['ros']
+[1.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_teleop) by extension 'ros'
+[1.031s] DEBUG:colcon.colcon_core.package_identification:Package 'src/eurobot_teleop' with type 'ros.ament_cmake' and name 'eurobot_teleop'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extensions ['ignore', 'ignore_ament_install']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extension 'ignore'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extension 'ignore_ament_install'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extensions ['colcon_pkg']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extension 'colcon_pkg'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extensions ['colcon_meta']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extension 'colcon_meta'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extensions ['ros']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extension 'ros'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extensions ['cmake', 'python']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extension 'cmake'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extension 'python'
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extensions ['python_setup_py']
+[1.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/eurobot_world) by extension 'python_setup_py'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_pkg_robot) by extensions ['ignore', 'ignore_ament_install']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_pkg_robot) by extension 'ignore'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_pkg_robot) by extension 'ignore_ament_install'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_pkg_robot) by extensions ['colcon_pkg']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_pkg_robot) by extension 'colcon_pkg'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_pkg_robot) by extensions ['colcon_meta']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_pkg_robot) by extension 'colcon_meta'
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_pkg_robot) by extensions ['ros']
+[1.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/mon_pkg_robot) by extension 'ros'
+[1.032s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mon_pkg_robot' with type 'ros.ament_cmake' and name 'mon_pkg_robot'
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.144s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/rosubuntu/eurobot_ws/install
+[1.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 394 installed packages in /opt/ros/humble
+[1.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'eurobot_control' build argument 'cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'eurobot_control' build argument 'cmake_target' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'eurobot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'eurobot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'eurobot_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'eurobot_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'eurobot_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'eurobot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'eurobot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.268s] DEBUG:colcon.colcon_core.verb:Building package 'eurobot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosubuntu/eurobot_ws/build/eurobot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosubuntu/eurobot_ws/install/eurobot_control', 'merge_install': False, 'path': '/home/rosubuntu/eurobot_ws/src/eurobot_control', 'symlink_install': False, 'test_result_base': None}
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'eurobot_controller' build argument 'cmake_args' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'eurobot_controller' build argument 'cmake_target' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'eurobot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'eurobot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'eurobot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'eurobot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'eurobot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'eurobot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.282s] Level 5:colcon.colcon_core.verb:set package 'eurobot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.282s] DEBUG:colcon.colcon_core.verb:Building package 'eurobot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosubuntu/eurobot_ws/build/eurobot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosubuntu/eurobot_ws/install/eurobot_controller', 'merge_install': False, 'path': '/home/rosubuntu/eurobot_ws/src/eurobot_controller', 'symlink_install': False, 'test_result_base': None}
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'eurobot_description' build argument 'cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'eurobot_description' build argument 'cmake_target' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'eurobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'eurobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'eurobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'eurobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'eurobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'eurobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'eurobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.296s] DEBUG:colcon.colcon_core.verb:Building package 'eurobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosubuntu/eurobot_ws/build/eurobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosubuntu/eurobot_ws/install/eurobot_description', 'merge_install': False, 'path': '/home/rosubuntu/eurobot_ws/src/eurobot_description', 'symlink_install': False, 'test_result_base': None}
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'eurobot_hardware' build argument 'cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'eurobot_hardware' build argument 'cmake_target' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'eurobot_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'eurobot_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'eurobot_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'eurobot_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'eurobot_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'eurobot_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'eurobot_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.310s] DEBUG:colcon.colcon_core.verb:Building package 'eurobot_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosubuntu/eurobot_ws/build/eurobot_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosubuntu/eurobot_ws/install/eurobot_hardware', 'merge_install': False, 'path': '/home/rosubuntu/eurobot_ws/src/eurobot_hardware', 'symlink_install': False, 'test_result_base': None}
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'eurobot_teleop' build argument 'cmake_args' from command line to 'None'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'eurobot_teleop' build argument 'cmake_target' from command line to 'None'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'eurobot_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'eurobot_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'eurobot_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'eurobot_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'eurobot_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'eurobot_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.324s] Level 5:colcon.colcon_core.verb:set package 'eurobot_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.324s] DEBUG:colcon.colcon_core.verb:Building package 'eurobot_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosubuntu/eurobot_ws/build/eurobot_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosubuntu/eurobot_ws/install/eurobot_teleop', 'merge_install': False, 'path': '/home/rosubuntu/eurobot_ws/src/eurobot_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.338s] Level 5:colcon.colcon_core.verb:set package 'mon_pkg_robot' build argument 'cmake_args' from command line to 'None'
+[1.338s] Level 5:colcon.colcon_core.verb:set package 'mon_pkg_robot' build argument 'cmake_target' from command line to 'None'
+[1.338s] Level 5:colcon.colcon_core.verb:set package 'mon_pkg_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.338s] Level 5:colcon.colcon_core.verb:set package 'mon_pkg_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.338s] Level 5:colcon.colcon_core.verb:set package 'mon_pkg_robot' build argument 'cmake_clean_first' from command line to 'False'
+[1.338s] Level 5:colcon.colcon_core.verb:set package 'mon_pkg_robot' build argument 'cmake_force_configure' from command line to 'False'
+[1.338s] Level 5:colcon.colcon_core.verb:set package 'mon_pkg_robot' build argument 'ament_cmake_args' from command line to 'None'
+[1.338s] Level 5:colcon.colcon_core.verb:set package 'mon_pkg_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.338s] Level 5:colcon.colcon_core.verb:set package 'mon_pkg_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.338s] DEBUG:colcon.colcon_core.verb:Building package 'mon_pkg_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosubuntu/eurobot_ws/build/mon_pkg_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot', 'merge_install': False, 'path': '/home/rosubuntu/eurobot_ws/src/mon_pkg_robot', 'symlink_install': False, 'test_result_base': None}
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'eurobot_launch' build argument 'cmake_args' from command line to 'None'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'eurobot_launch' build argument 'cmake_target' from command line to 'None'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'eurobot_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'eurobot_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'eurobot_launch' build argument 'cmake_clean_first' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'eurobot_launch' build argument 'cmake_force_configure' from command line to 'False'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'eurobot_launch' build argument 'ament_cmake_args' from command line to 'None'
+[1.351s] Level 5:colcon.colcon_core.verb:set package 'eurobot_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[1.352s] Level 5:colcon.colcon_core.verb:set package 'eurobot_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.352s] DEBUG:colcon.colcon_core.verb:Building package 'eurobot_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosubuntu/eurobot_ws/build/eurobot_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosubuntu/eurobot_ws/install/eurobot_launch', 'merge_install': False, 'path': '/home/rosubuntu/eurobot_ws/src/eurobot_launch', 'symlink_install': False, 'test_result_base': None}
+[1.365s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.379s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosubuntu/eurobot_ws/src/eurobot_description' with build type 'ament_cmake'
+[1.379s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosubuntu/eurobot_ws/src/eurobot_description'
+[1.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.438s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosubuntu/eurobot_ws/src/eurobot_control' with build type 'ament_cmake'
+[1.438s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosubuntu/eurobot_ws/src/eurobot_control'
+[1.453s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.498s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosubuntu/eurobot_ws/src/eurobot_controller' with build type 'ament_cmake'
+[1.498s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosubuntu/eurobot_ws/src/eurobot_controller'
+[1.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.558s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosubuntu/eurobot_ws/src/eurobot_hardware' with build type 'ament_cmake'
+[1.558s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosubuntu/eurobot_ws/src/eurobot_hardware'
+[1.573s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.573s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.623s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosubuntu/eurobot_ws/src/eurobot_teleop' with build type 'ament_cmake'
+[1.623s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosubuntu/eurobot_ws/src/eurobot_teleop'
+[1.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.688s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosubuntu/eurobot_ws/src/mon_pkg_robot' with build type 'ament_cmake'
+[1.688s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosubuntu/eurobot_ws/src/mon_pkg_robot'
+[1.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_description -- -j8 -l8
+[1.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_control -- -j8 -l8
+[1.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_controller -- -j8 -l8
+[1.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_hardware -- -j8 -l8
+[1.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_teleop -- -j8 -l8
+[1.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/mon_pkg_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/mon_pkg_robot -- -j8 -l8
+[1.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/mon_pkg_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/mon_pkg_robot -- -j8 -l8
+[1.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_description -- -j8 -l8
+[1.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/mon_pkg_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/mon_pkg_robot
+[1.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_controller -- -j8 -l8
+[1.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_control -- -j8 -l8
+[1.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_hardware -- -j8 -l8
+[1.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_description
+[1.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mon_pkg_robot)
+[1.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_teleop -- -j8 -l8
+[1.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/mon_pkg_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/mon_pkg_robot
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot' for CMake module files
+[1.881s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot' for CMake config files
+[1.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('mon_pkg_robot', 'cmake_prefix_path')
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/hook/cmake_prefix_path.ps1'
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/hook/cmake_prefix_path.dsv'
+[1.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/hook/cmake_prefix_path.sh'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/bin'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/lib/pkgconfig/mon_pkg_robot.pc'
+[1.899s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/lib/python3.10/site-packages'
+[1.900s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/bin'
+[1.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/package.ps1'
+[1.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/package.dsv'
+[1.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/package.sh'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/package.bash'
+[1.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/package.zsh'
+[1.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/colcon-core/packages/mon_pkg_robot)
+[1.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_controller
+[1.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_control
+[1.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_hardware
+[1.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_teleop
+[1.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_description)
+[1.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_description
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description' for CMake module files
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description' for CMake config files
+[1.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_description', 'cmake_prefix_path')
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/hook/cmake_prefix_path.ps1'
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/hook/cmake_prefix_path.dsv'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/hook/cmake_prefix_path.sh'
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description/bin'
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description/lib/pkgconfig/eurobot_description.pc'
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description/lib/python3.10/site-packages'
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description/bin'
+[1.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.ps1'
+[1.991s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.dsv'
+[1.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.sh'
+[1.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.bash'
+[1.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.zsh'
+[1.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_description/share/colcon-core/packages/eurobot_description)
+[1.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_controller)
+[1.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_controller
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller' for CMake module files
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller' for CMake config files
+[2.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_controller', 'cmake_prefix_path')
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/cmake_prefix_path.ps1'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/cmake_prefix_path.dsv'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/cmake_prefix_path.sh'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller/lib'
+[2.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_controller', 'ld_library_path_lib')
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/ld_library_path_lib.ps1'
+[2.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/ld_library_path_lib.dsv'
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/ld_library_path_lib.sh'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller/bin'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller/lib/pkgconfig/eurobot_controller.pc'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller/lib/python3.10/site-packages'
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller/bin'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.ps1'
+[2.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.dsv'
+[2.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.sh'
+[2.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.bash'
+[2.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.zsh'
+[2.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/colcon-core/packages/eurobot_controller)
+[2.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_control)
+[2.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_control
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control' for CMake module files
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control' for CMake config files
+[2.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_control', 'cmake_prefix_path')
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/hook/cmake_prefix_path.ps1'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/hook/cmake_prefix_path.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/hook/cmake_prefix_path.sh'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control/lib'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control/bin'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control/lib/pkgconfig/eurobot_control.pc'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control/lib/python3.10/site-packages'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control/bin'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.ps1'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.dsv'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.sh'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.bash'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.zsh'
+[2.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_control/share/colcon-core/packages/eurobot_control)
+[2.141s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mon_pkg_robot)
+[2.157s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot' for CMake module files
+[2.158s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot' for CMake config files
+[2.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('mon_pkg_robot', 'cmake_prefix_path')
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/hook/cmake_prefix_path.ps1'
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/hook/cmake_prefix_path.dsv'
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/hook/cmake_prefix_path.sh'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/bin'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/lib/pkgconfig/mon_pkg_robot.pc'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/lib/python3.10/site-packages'
+[2.176s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/bin'
+[2.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/package.ps1'
+[2.192s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/package.dsv'
+[2.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/package.sh'
+[2.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/package.bash'
+[2.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/mon_pkg_robot/package.zsh'
+[2.194s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/mon_pkg_robot/share/colcon-core/packages/mon_pkg_robot)
+[2.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_hardware)
+[2.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_hardware
+[2.210s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware' for CMake module files
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware' for CMake config files
+[2.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_hardware', 'cmake_prefix_path')
+[2.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/cmake_prefix_path.ps1'
+[2.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/cmake_prefix_path.dsv'
+[2.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/cmake_prefix_path.sh'
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/lib'
+[2.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_hardware', 'ld_library_path_lib')
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/ld_library_path_lib.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/ld_library_path_lib.dsv'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/ld_library_path_lib.sh'
+[2.244s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/bin'
+[2.244s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/lib/pkgconfig/eurobot_hardware.pc'
+[2.244s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/lib/python3.10/site-packages'
+[2.244s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/bin'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.ps1'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.dsv'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.sh'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.bash'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.zsh'
+[2.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/colcon-core/packages/eurobot_hardware)
+[2.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_teleop)
+[2.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_teleop
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop' for CMake module files
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop' for CMake config files
+[2.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_teleop', 'cmake_prefix_path')
+[2.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/hook/cmake_prefix_path.ps1'
+[2.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/hook/cmake_prefix_path.dsv'
+[2.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/hook/cmake_prefix_path.sh'
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/lib'
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/bin'
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/lib/pkgconfig/eurobot_teleop.pc'
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/lib/python3.10/site-packages'
+[2.292s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/bin'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.ps1'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.dsv'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.sh'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.bash'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.zsh'
+[2.307s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/colcon-core/packages/eurobot_teleop)
+[2.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_description)
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description' for CMake module files
+[2.337s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description' for CMake config files
+[2.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_description', 'cmake_prefix_path')
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/hook/cmake_prefix_path.ps1'
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/hook/cmake_prefix_path.dsv'
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/hook/cmake_prefix_path.sh'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description/bin'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description/lib/pkgconfig/eurobot_description.pc'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description/lib/python3.10/site-packages'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_description/bin'
+[2.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.ps1'
+[2.370s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.dsv'
+[2.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.sh'
+[2.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.bash'
+[2.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.zsh'
+[2.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_description/share/colcon-core/packages/eurobot_description)
+[2.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_controller)
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller' for CMake module files
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller' for CMake config files
+[2.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_controller', 'cmake_prefix_path')
+[2.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/cmake_prefix_path.ps1'
+[2.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/cmake_prefix_path.dsv'
+[2.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/cmake_prefix_path.sh'
+[2.416s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller/lib'
+[2.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_controller', 'ld_library_path_lib')
+[2.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/ld_library_path_lib.ps1'
+[2.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/ld_library_path_lib.dsv'
+[2.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/hook/ld_library_path_lib.sh'
+[2.431s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller/bin'
+[2.431s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller/lib/pkgconfig/eurobot_controller.pc'
+[2.431s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller/lib/python3.10/site-packages'
+[2.431s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_controller/bin'
+[2.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.ps1'
+[2.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.dsv'
+[2.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.sh'
+[2.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.bash'
+[2.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/eurobot_controller/package.zsh'
+[2.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_controller/share/colcon-core/packages/eurobot_controller)
+[2.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_control)
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control' for CMake module files
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control' for CMake config files
+[2.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_control', 'cmake_prefix_path')
+[2.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/hook/cmake_prefix_path.ps1'
+[2.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/hook/cmake_prefix_path.dsv'
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/hook/cmake_prefix_path.sh'
+[2.490s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control/lib'
+[2.490s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control/bin'
+[2.490s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control/lib/pkgconfig/eurobot_control.pc'
+[2.491s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control/lib/python3.10/site-packages'
+[2.491s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_control/bin'
+[2.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.ps1'
+[2.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.dsv'
+[2.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.sh'
+[2.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.bash'
+[2.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_control/share/eurobot_control/package.zsh'
+[2.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_control/share/colcon-core/packages/eurobot_control)
+[2.507s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosubuntu/eurobot_ws/src/eurobot_launch' with build type 'ament_cmake'
+[2.507s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosubuntu/eurobot_ws/src/eurobot_launch'
+[2.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_hardware)
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware' for CMake module files
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware' for CMake config files
+[2.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_hardware', 'cmake_prefix_path')
+[2.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/cmake_prefix_path.ps1'
+[2.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/cmake_prefix_path.dsv'
+[2.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/cmake_prefix_path.sh'
+[2.609s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/lib'
+[2.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_hardware', 'ld_library_path_lib')
+[2.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/ld_library_path_lib.ps1'
+[2.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/ld_library_path_lib.dsv'
+[2.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/hook/ld_library_path_lib.sh'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/bin'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/lib/pkgconfig/eurobot_hardware.pc'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/lib/python3.10/site-packages'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/bin'
+[2.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.ps1'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.dsv'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.sh'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.bash'
+[2.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/eurobot_hardware/package.zsh'
+[2.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_hardware/share/colcon-core/packages/eurobot_hardware)
+[2.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_teleop)
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop' for CMake module files
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop' for CMake config files
+[2.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_teleop', 'cmake_prefix_path')
+[2.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/hook/cmake_prefix_path.ps1'
+[2.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/hook/cmake_prefix_path.dsv'
+[2.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/hook/cmake_prefix_path.sh'
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/lib'
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/bin'
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/lib/pkgconfig/eurobot_teleop.pc'
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/lib/python3.10/site-packages'
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/bin'
+[2.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.ps1'
+[2.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.dsv'
+[2.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.sh'
+[2.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.bash'
+[2.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.zsh'
+[2.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/colcon-core/packages/eurobot_teleop)
+[2.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_launch': CMAKE_PREFIX_PATH=/home/rosubuntu/eurobot_ws/install/eurobot_description:/home/rosubuntu/eurobot_ws/install/mon_pkg_robot:/home/rosubuntu/eurobot_ws/install/eurobot_teleop:/home/rosubuntu/eurobot_ws/install/eurobot_launch:/home/rosubuntu/eurobot_ws/install/eurobot_hardware:/home/rosubuntu/eurobot_ws/install/eurobot_controller:/home/rosubuntu/eurobot_ws/install/eurobot_control:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_launch -- -j8 -l8
+[2.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_launch' returned '0': CMAKE_PREFIX_PATH=/home/rosubuntu/eurobot_ws/install/eurobot_description:/home/rosubuntu/eurobot_ws/install/mon_pkg_robot:/home/rosubuntu/eurobot_ws/install/eurobot_teleop:/home/rosubuntu/eurobot_ws/install/eurobot_launch:/home/rosubuntu/eurobot_ws/install/eurobot_hardware:/home/rosubuntu/eurobot_ws/install/eurobot_controller:/home/rosubuntu/eurobot_ws/install/eurobot_control:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_launch -- -j8 -l8
+[2.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_launch': CMAKE_PREFIX_PATH=/home/rosubuntu/eurobot_ws/install/eurobot_description:/home/rosubuntu/eurobot_ws/install/mon_pkg_robot:/home/rosubuntu/eurobot_ws/install/eurobot_teleop:/home/rosubuntu/eurobot_ws/install/eurobot_launch:/home/rosubuntu/eurobot_ws/install/eurobot_hardware:/home/rosubuntu/eurobot_ws/install/eurobot_controller:/home/rosubuntu/eurobot_ws/install/eurobot_control:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_launch
+[2.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_launch)
+[2.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_launch' returned '0': CMAKE_PREFIX_PATH=/home/rosubuntu/eurobot_ws/install/eurobot_description:/home/rosubuntu/eurobot_ws/install/mon_pkg_robot:/home/rosubuntu/eurobot_ws/install/eurobot_teleop:/home/rosubuntu/eurobot_ws/install/eurobot_launch:/home/rosubuntu/eurobot_ws/install/eurobot_hardware:/home/rosubuntu/eurobot_ws/install/eurobot_controller:/home/rosubuntu/eurobot_ws/install/eurobot_control:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_launch
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch' for CMake module files
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch' for CMake config files
+[2.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_launch', 'cmake_prefix_path')
+[2.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/hook/cmake_prefix_path.ps1'
+[2.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/hook/cmake_prefix_path.dsv'
+[2.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/hook/cmake_prefix_path.sh'
+[2.796s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch/bin'
+[2.796s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch/lib/pkgconfig/eurobot_launch.pc'
+[2.796s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch/lib/python3.10/site-packages'
+[2.797s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch/bin'
+[2.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.ps1'
+[2.823s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.dsv'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.sh'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.bash'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.zsh'
+[2.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/colcon-core/packages/eurobot_launch)
+[2.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(eurobot_launch)
+[2.893s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch' for CMake module files
+[2.893s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch' for CMake config files
+[2.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('eurobot_launch', 'cmake_prefix_path')
+[2.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/hook/cmake_prefix_path.ps1'
+[2.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/hook/cmake_prefix_path.dsv'
+[2.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/hook/cmake_prefix_path.sh'
+[2.921s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch/bin'
+[2.921s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch/lib/pkgconfig/eurobot_launch.pc'
+[2.922s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch/lib/python3.10/site-packages'
+[2.922s] Level 1:colcon.colcon_core.environment:checking '/home/rosubuntu/eurobot_ws/install/eurobot_launch/bin'
+[2.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.ps1'
+[2.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.dsv'
+[2.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.sh'
+[2.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.bash'
+[2.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/eurobot_launch/package.zsh'
+[2.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosubuntu/eurobot_ws/install/eurobot_launch/share/colcon-core/packages/eurobot_launch)
+[2.942s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.943s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.978s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.978s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.978s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.994s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.022s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosubuntu/eurobot_ws/install/local_setup.ps1'
+[3.024s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rosubuntu/eurobot_ws/install/_local_setup_util_ps1.py'
+[3.026s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosubuntu/eurobot_ws/install/setup.ps1'
+[3.049s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosubuntu/eurobot_ws/install/local_setup.sh'
+[3.050s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rosubuntu/eurobot_ws/install/_local_setup_util_sh.py'
+[3.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosubuntu/eurobot_ws/install/setup.sh'
+[3.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosubuntu/eurobot_ws/install/local_setup.bash'
+[3.075s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosubuntu/eurobot_ws/install/setup.bash'
+[3.105s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosubuntu/eurobot_ws/install/local_setup.zsh'
+[3.106s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosubuntu/eurobot_ws/install/setup.zsh'

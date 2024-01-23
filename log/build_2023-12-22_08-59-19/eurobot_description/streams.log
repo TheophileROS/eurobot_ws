@@ -1,0 +1,40 @@
+[0.473s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_description -- -j8 -l8
+[0.531s] [100%] [34m[1mxacro: generating /home/rosubuntu/eurobot_ws/src/eurobot_description/urdf/mon_robot.urdf from /home/rosubuntu/eurobot_ws/src/eurobot_description/urdf/mon_robot.urdf.xacro[0m
+[0.664s] [100%] Built target eurobot_description__xacro_auto_generate
+[0.890s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_description -- -j8 -l8
+[1.227s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_description
+[1.432s] -- Install configuration: ""
+[1.432s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/urdf/mon_robot.urdf
+[1.432s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/urdf
+[1.432s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/urdf/tiges.xacro
+[1.432s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/urdf/outils.xacro
+[1.432s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/urdf/materials.xacro
+[1.433s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/urdf/base_robot.xacro
+[1.433s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/urdf/mon_robot.urdf.xacro
+[1.433s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/urdf/LiDAR.xacro
+[1.433s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/urdf/camera.xacro
+[1.433s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/urdf/mon_robot.urdf
+[1.434s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/urdf/roue_mecanum.xacro
+[1.434s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/rviz
+[1.434s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/rviz/model.rviz
+[1.434s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/config
+[1.434s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/config/controller_config.yaml
+[1.435s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/gazebo
+[1.435s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/gazebo/gazebo_control.xacro
+[1.435s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/gazebo/robot.urdf.xacro
+[1.435s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/ament_index/resource_index/package_run_dependencies/eurobot_description
+[1.435s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/ament_index/resource_index/parent_prefix_path/eurobot_description
+[1.435s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/environment/ament_prefix_path.sh
+[1.436s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/environment/ament_prefix_path.dsv
+[1.436s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/environment/path.sh
+[1.436s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/environment/path.dsv
+[1.436s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/local_setup.bash
+[1.436s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/local_setup.sh
+[1.436s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/local_setup.zsh
+[1.437s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/local_setup.dsv
+[1.437s] -- Installing: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.dsv
+[1.437s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/ament_index/resource_index/packages/eurobot_description
+[1.437s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/cmake/eurobot_descriptionConfig.cmake
+[1.437s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/cmake/eurobot_descriptionConfig-version.cmake
+[1.437s] -- Up-to-date: /home/rosubuntu/eurobot_ws/install/eurobot_description/share/eurobot_description/package.xml
+[1.438s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/eurobot_description

@@ -1,0 +1,23 @@
+[0.398s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_control -- -j8 -l8
+[0.488s] [ 50%] [32mBuilding CXX object CMakeFiles/eurobot_control_node.dir/src/eurobot_control_node.cpp.o[0m
+[1.046s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:60:33:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[1.046s]    60 |     start_controllers.push_back([01;35m[K"[m[Kjoi
+[1.046s]       |                                 [01;35m[K^[m[K
+[1.046s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:60:33:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[1.046s]    60 |     start_controllers.push_back([01;31m[K"joi[m[K
+[1.046s]       |                                 [01;31m[K^~~~[m[K
+[1.047s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:61:24:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[1.047s]    61 |     nt_state_controller[01;35m[K"[m[K);
+[1.047s]       |                        [01;35m[K^[m[K
+[1.047s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:61:24:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[1.047s]    61 |     nt_state_controller[01;31m[K");[m[K
+[1.047s]       |                        [01;31m[K^~~[m[K
+[5.639s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.640s] [01m[K/home/rosubuntu/eurobot_ws/src/eurobot_control/src/eurobot_control_node.cpp:61:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knt_state_controller[m[K’ was not declared in this scope; did you mean ‘[01m[Kstart_controllers[m[K’?
+[5.640s]    61 |     [01;31m[Knt_state_controller[m[K");
+[5.640s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.640s]       |     [32m[Kstart_controllers[m[K
+[6.803s] gmake[2]: *** [CMakeFiles/eurobot_control_node.dir/build.make:76: CMakeFiles/eurobot_control_node.dir/src/eurobot_control_node.cpp.o] Error 1
+[6.803s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/eurobot_control_node.dir/all] Error 2
+[6.803s] gmake: *** [Makefile:146: all] Error 2
+[6.806s] Invoked command in '/home/rosubuntu/eurobot_ws/build/eurobot_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_control -- -j8 -l8

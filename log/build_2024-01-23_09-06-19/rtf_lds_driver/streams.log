@@ -1,0 +1,33 @@
+[0.275s] Invoking command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/rtf_lds_driver -- -j8 -l8
+[0.430s] [35m[1mConsolidate compiler generated dependencies of target hlds_laser_publisher[0m
+[0.539s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[16.763s] [100%] [32m[1mLinking CXX executable hlds_laser_publisher[0m
+[17.638s] [100%] Built target hlds_laser_publisher
+[17.669s] Invoked command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/rtf_lds_driver -- -j8 -l8
+[17.739s] Invoking command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/rtf_lds_driver
+[17.762s] -- Install configuration: ""
+[17.762s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/launch
+[17.763s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/launch/hlds_laser.launch.py
+[17.763s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/launch/view_hlds_laser.launch.py
+[17.764s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/rviz
+[17.764s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/rviz/hlds_laser.rviz
+[17.764s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/lib/rtf_lds_driver/hlds_laser_publisher
+[17.767s] -- Set runtime path of "/home/rosubuntu/eurobot_ws/install/rtf_lds_driver/lib/rtf_lds_driver/hlds_laser_publisher" to ""
+[17.767s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/ament_index/resource_index/package_run_dependencies/rtf_lds_driver
+[17.768s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/ament_index/resource_index/parent_prefix_path/rtf_lds_driver
+[17.768s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/ament_prefix_path.sh
+[17.768s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/ament_prefix_path.dsv
+[17.768s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/path.sh
+[17.769s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/environment/path.dsv
+[17.769s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.bash
+[17.770s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.sh
+[17.770s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.zsh
+[17.770s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/local_setup.dsv
+[17.770s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.dsv
+[17.771s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/ament_index/resource_index/packages/rtf_lds_driver
+[17.771s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.772s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.773s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/rtf_lds_driverConfig.cmake
+[17.775s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/cmake/rtf_lds_driverConfig-version.cmake
+[17.776s] -- Installing: /home/rosubuntu/eurobot_ws/install/rtf_lds_driver/share/rtf_lds_driver/package.xml
+[17.779s] Invoked command in '/home/rosubuntu/eurobot_ws/build/rtf_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosubuntu/eurobot_ws/build/rtf_lds_driver

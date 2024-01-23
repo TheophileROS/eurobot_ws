@@ -1,0 +1,6 @@
+[0.161s] Invoking command in '/home/rosubuntu/eurobot_ws/build/eurobot_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosubuntu/eurobot_ws/build/eurobot_teleop -- -j8 -l8
+[0.251s] [ 25%] [32mBuilding CXX object CMakeFiles/eurobot_teleop.dir/src/node_main.cpp.o[0m
+[0.254s] [ 50%] [32mBuilding CXX object CMakeFiles/eurobot_teleop.dir/src/eurobot_joystick.cpp.o[0m
+[0.254s] [ 75%] [32mBuilding CXX object CMakeFiles/eurobot_teleop.dir/src/eurobot_teleop.cpp.o[0m
+[10.673s] [100%] [32m[1mLinking CXX executable eurobot_teleop[0m
+[11.171s] [100%] Built target eurobot_teleop

@@ -1,0 +1,17 @@
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/config/teleop_config.yaml
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/lib/eurobot_teleop/eurobot_teleop
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/ament_index/resource_index/package_run_dependencies/eurobot_teleop
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/ament_index/resource_index/parent_prefix_path/eurobot_teleop
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/ament_prefix_path.sh
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/ament_prefix_path.dsv
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/path.sh
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/environment/path.dsv
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.bash
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.sh
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.zsh
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/local_setup.dsv
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.dsv
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/ament_index/resource_index/packages/eurobot_teleop
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/cmake/eurobot_teleopConfig.cmake
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/cmake/eurobot_teleopConfig-version.cmake
+/home/rosubuntu/eurobot_ws/install/eurobot_teleop/share/eurobot_teleop/package.xml
